@@ -3,7 +3,7 @@ Desafio aceito! (Criado por [@](https://github.com/MilenaCarecho/30diasD)MilenaC
 Para participar, só dar um pulo [aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) :)
 <br>
 <br>
-⋅⋅* Dia 01 - Ícone de mídia social em camadas<br>
+⋅*⋅ Dia 01 - Ícone de mídia social em camadas<br>
 ⋅⋅* Dia 02 - Loader animado<br>
 ⋅⋅*Dia 03 - Mudança de cor de texto quando entra em outra div<br>
 ⋅⋅*Dia 04 - Botão com efeito<br>
