@@ -1,43 +1,46 @@
-*{
-    margin:0;
-    padding:0;
-    box-sizing: border-box;   
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
 }
-a{
+
+a {
     text-decoration: none;
 }
-body{
-    
+
+body {
+
     font-family: 'Share Tech Mono', serif;
     display: flex;
-    justify-content:center;
+    justify-content: center;
     align-items: center;
     min-height: 100vh;
     background: #ffffff;
     overflow: hidden;
 }
 
-section{
-	margin: 10%;
-    display: flex;  
+section {
+    margin: 10%;
+    display: flex;
 }
 
-ul{
+ul {
     /*position: relative;*/
-    display:flex;
+    display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
-ul li{
+
+ul li {
     list-style: none;
-    
+
 }
 
- ul li a{
-   /* position: relative;*/
-} 
+ul li a {
+    /* position: relative;*/
+}
 
-.pages{
+.pages {
     /*position: relative;*/
     width: 180px;
     height: 50px;
@@ -50,14 +53,15 @@ ul li{
     cursor: pointer;
     margin: 10px 10px;
     border-radius: 10px;
-    box-shadow: -1px -1px 4px rgba(255,255,255,0.05),
-                4px 4px 6px rgba(0,0,0,0.2),
-                inset -1px -1px 4px rgba(255,255,255,0.05),
-                inset 1px 1px 1px rgba(0,0,0,0.1);
+    box-shadow: -1px -1px 4px rgba(255, 255, 255, 0.05),
+        4px 4px 6px rgba(0, 0, 0, 0.2),
+        inset -1px -1px 4px rgba(255, 255, 255, 0.05),
+        inset 1px 1px 1px rgba(0, 0, 0, 0.1);
 
 }
+
 ul li a:hover {
-	transform: scale(1.2);
-	background: #000000;
-	color: #EEBEDA;
+    transform: scale(1.2);
+    background: #000000;
+    color: #363234;
 }
