@@ -1,0 +1,45 @@
+body {
+    margin: 0;
+    padding: 0;
+    background: #413f3f;
+    background-size: 100vh;
+}
+
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+}
+
+.boom {
+    width: 150px;
+    height: 150px;
+    background: #f7f5f6;
+    border-radius: 50%;
+    color: black;
+    font-size: 25px;
+    font-family: Verdana, sans-serif;
+    text-align: center;
+    line-height: 150px;
+    animation: animate 3s linear infinite;
+}
+
+@keyframes animate {
+    0% {
+        box-shadow: 0 0 0 0 rgba(136, 135, 135, 0.7), 0 0 0 0 rgba(94, 93, 93, 0.7);
+    }
+
+    40% {
+        box-shadow: 0 0 0 50px rgba(216, 111, 146, 0), 0 0 0 50px rgba(252, 251, 251, 0.7);
+    }
+
+    80% {
+        box-shadow: 0 0 0 50px rgba(216, 111, 146, 0), 0 0 0 30px rgba(216, 111, 146, 0);
+    }
+
+    100% {
+        box-shadow: 0 0 0 0 rgba(216, 111, 146, 0), 0 0 0 30px rgba(216, 111, 146, 0);
+    }
+}
