@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    margin: 0;
+    background-color: rgb(37, 37, 37);
+}
+
+.coracao {
+
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 31, 31);
+    transform: rotate(45deg);
+    position: relative;
+    animation: beating 1s linear infinite;
+    box-shadow: -10px 10px 90px rgb(224, 31, 31);
+
+}
+
+@keyframes beating {
+    0% {
+
+        transform: rotate(40deg) scale(1);
+    }
+
+    50% {
+
+        transform: rotate(40deg) scale(0.8);
+    }
+
+    100% {
+
+        transform: rotate(40deg) scale(1);
+
+    }
+}
+
+.coracao:before {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 31, 31);
+    border-radius: 50%;
+    position: absolute;
+    top: -60px;
+    box-shadow: -10px 10px 90px rgb(224, 31, 31);
+}
+
+
+.coracao:after {
+    content: "";
+    width: 100px;
+    height: 100px;
+    background-color: rgb(224, 31, 31);
+    border-radius: 50%;
+    position: absolute;
+    right: 60px;
+    box-shadow: -10px -10px 90px rgb(224, 31, 31);
+}
