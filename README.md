@@ -1,5 +1,5 @@
 # 30DiasDeCSS
-Desafio aceito! (Criado por [@](https://github.com/MilenaCarecho/30diasD)MilenaCarecho)<br>
+Desafio aceito! (Criado por @MilenaCarecho)<br>
 Para participar, só dar um pulo [aqui](https://github.com/MilenaCarecho/30diasDeCSS/issues/1) :)
 <br>
 <br>
